@@ -17,6 +17,10 @@
      * php artisan backpack:install   ( устанавливаем сам bacpack но перед этим сделать нужные нам изменения в миграции файлов user добавить userov и тд) 
      * Можем переходить в наш админ кабинет после name-project.test/admin ссылке
      * делаем регистрацию и вуаля мы в кабинете!
+  # Устанавливаем выбераем компонеты    
+       * php artisan vendor:publish  (0 если установить все)
+  # Устанвливаем BackpackManager
+          ссылка https://backpackforlaravel.com/docs/4.1/install-optionals#documentation-box  ljrevtynfwbz ecnfyjdrb
      
   # Создаем категории в админ панели
      * php artisan make:controller Admin/СategoryController  - создаем в папке админа контроллер для категорий   
